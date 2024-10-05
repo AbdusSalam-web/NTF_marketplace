@@ -1,0 +1,11 @@
+.menu>ul>li {
+    @apply py-3 px-5
+}
+
+.menu>ul>li>a {
+    @apply font-workSans font-semibold text-[16px] text-[#FFFFFF] leading-[23px];
+}
+
+.menu>ul>li>a:active {
+    @apply text-red-500;
+}
