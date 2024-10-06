@@ -32,9 +32,9 @@ const Hero = () => {
   return (
     <>
       <section className="hero w-full bg-brand">
-        <div className="container px-[30px] py-[40px] md:py-[80px] md:px-[72px]">
-          <div className="heroContent md:flex md:gap-[30px] md:flex-wrap ">
-            <div className="heroText md:w-[330px] md:flex md:gap-[30px] md:flex-wrap ">
+        <div className="container px-[30px] py-[40px] md:py-[80px] md:px-[72px] lg:px-[95px] lg-py-[80px]">
+          <div className="heroContent md:flex md:gap-[30px] md:flex-wrap lg:w-[1050px] lg:flex-wrap ">
+            <div className="heroText md:w-[330px] md:flex md:gap-[30px] md:flex-wrap lg:gap-0  lg:w-[510px] ">
               <h3 className="font-workSans font-semibold text-[28px] text-[#FFFFFF] leading-[40px] md:text-[38px] md:leading-[46px] ">
                 Discover digital art & Collect NFTs
               </h3>
@@ -43,7 +43,7 @@ const Hero = () => {
                 and sell art from more than 20k NFT artists.
               </p>
             </div>
-            <div className="heroImageCard md:w-[400px]">
+            <div className="heroImageCard md:w-[400px] lg:w-[510px]">
               <img
                 src="./images/herobg.png"
                 alt="hero image"
@@ -66,7 +66,7 @@ const Hero = () => {
               </div>
             </div>
             <div className=" my-[40px] md:w-[330px]">
-              <GetStartedBtn  btnMd="md:my-[19px] px-[50px]"/>
+              <GetStartedBtn btnMd="md:py-[19px] md:px-[50px]" btnLg="lg:py-[19px] lg:px-[50px]" />
               <div className="counter w-full flex items-center gap-[30px] mt-[40px] ">
                 <div className="w-full">
                   <p className="font-spaceMono text-[22px] text-[#ffffff] leading-[35px] ">

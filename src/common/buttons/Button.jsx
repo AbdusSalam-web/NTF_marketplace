@@ -12,11 +12,11 @@ export const SingUpBtn = () => {
   );
 };
 
-export const GetStartedBtn = ({btnMd}) => {
+export const GetStartedBtn = ({ btnMd, btnLg }) => {
   return (
     <>
       <button
-        className={` ${btnMd} sm:w-full  py-[19px] bg-[#A259FF] font-workSans font-semibold text-[16px] text-white rounded-[20px] leading-[23px] flex items-center justify-center gap-3`}
+        className={` px-[97px] ${btnMd} ${btnLg}   py-[19px] bg-[#A259FF] font-workSans font-semibold text-[16px] text-white rounded-[20px] leading-[23px] flex items-center justify-center gap-3`}
       >
         <MdOutlineRocketLaunch />
         Get Started

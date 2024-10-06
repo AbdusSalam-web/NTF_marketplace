@@ -1,0 +1,114 @@
+.trendingCollections {
+  @apply bg-brand;
+}
+@screen sm {
+  .trendingCollections .container {
+    @apply py-[40px] w-[315px] mx-auto;
+  }
+  .trendingCollections .container .text {
+    @apply w-full mb-[40px];
+  }
+  .trendingCollections .container .text .trendingHeading {
+    @apply font-workSans font-semibold text-[28px] text-[#FFFFFF] leading-[40px] mb-[10px];
+  }
+  .trendingCollections .container .text .trendingPara {
+    @apply font-workSans font-normal text-[16px] leading-[23px] text-[#FFFFFF];
+  }
+  .trendingCollections .container .card {
+    @apply flex flex-wrap gap-[30px];
+  }
+  .trendingCollections .container .card div {
+    @apply w-[330px];
+  }
+  .trendingCollections .container .card div img {
+    @apply rounded-[20px];
+  }
+  .trendingCollections .container .card div .imgSm {
+    @apply w-full flex my-[15px] gap-[15px];
+  }
+  .trendingCollections .container .card div .imgSm .trendingCoutUp {
+    @apply w-full h-[100px] bg-[#A259FF] font-spaceMono font-bold text-[22px] text-[#FFFFFF] leading-[36px] flex items-center  justify-center rounded-[20px];
+  }
+  .trendingCollections .container .card div .profile {
+    @apply w-full flex flex-col gap-[10px];
+  }
+  .trendingCollections .container .card div .profile .frofileName {
+    @apply text-[#FFFFFF] font-workSans font-semibold text-[22px] leading-[30px];
+  }
+  .trendingCollections .container .card div .profile div {
+    @apply flex gap-3 font-workSans font-normal text-[16px] text-[#FFFFFF] leading-[23px];
+  }
+}
+@screen md {
+  .trendingCollections .container {
+    @apply py-[40px] w-full mx-auto px-[72px];
+  }
+  .trendingCollections .container .text {
+    @apply w-full mb-[40px];
+  }
+  .trendingCollections .container .text .trendingHeading {
+    @apply font-workSans font-semibold text-[28px] text-[#FFFFFF] leading-[40px] mb-[10px];
+  }
+  .trendingCollections .container .text .trendingPara {
+    @apply font-workSans font-normal text-[16px] leading-[23px] text-[#FFFFFF];
+  }
+  .trendingCollections .container .card {
+    @apply flex flex-wrap gap-[30px];
+  }
+  .trendingCollections .container .card div {
+    @apply w-[330px];
+  }
+  .trendingCollections .container .card div img {
+    @apply rounded-[20px];
+  }
+  .trendingCollections .container .card div .imgSm {
+    @apply w-full flex my-[15px] gap-[15px];
+  }
+  .trendingCollections .container .card div .imgSm .trendingCoutUp {
+    @apply w-full h-[100px] bg-[#A259FF] font-spaceMono font-bold text-[22px] text-[#FFFFFF] leading-[36px] flex items-center  justify-center rounded-[20px];
+  }
+  .trendingCollections .container .card div .profile {
+    @apply w-full flex flex-col gap-[10px];
+  }
+  .trendingCollections .container .card div .profile .frofileName {
+    @apply text-[#FFFFFF] font-workSans font-semibold text-[22px] leading-[30px];
+  }
+  .trendingCollections .container .card div .profile div {
+    @apply flex gap-3 font-workSans font-normal text-[16px] text-[#FFFFFF] leading-[23px];
+  }
+}
+@screen lg {
+  .trendingCollections .container {
+    @apply mx-auto py-[80px];
+  }
+  .trendingCollections .container .text {
+    @apply w-full;
+  }
+  .trendingCollections .container .text .trendingHeading {
+    @apply font-workSans font-semibold text-[38px] text-[#FFFFFF] leading-[46px] mb-[10px];
+  }
+  .trendingCollections .container .text .trendingPara {
+    @apply font-workSans font-normal text-[22px] leading-[35px] text-[#FFFFFF];
+  }
+  .trendingCollections .container .card {
+    @apply mt-[60px] w-full flex gap-[30px];
+  }
+  .trendingCollections .container .card div .img img {
+    @apply w-full rounded-[20px];
+  }
+  .trendingCollections .container .card div .imgSm {
+    @apply flex items-center  my-[15px] gap-[15px];
+  }
+  .trendingCollections .container .card div .imgSm .trendingCoutUp {
+    @apply w-full py-[32px] flex items-center justify-center rounded-[20px] bg-[#A259FF] font-spaceMono font-bold text-[22px] text-[#FFFFFF] leading-[36px];
+  }
+  .trendingCollections .container .card div .profile {
+    @apply flex flex-col gap-[10px];
+  }
+  .trendingCollections .container .card div .profile .frofileName {
+    @apply font-workSans font-semibold text-[22px] text-[#FFFFFF] leading-[30px];
+  }
+  .trendingCollections .container .card div .profile div {
+    @apply flex gap-3 font-workSans font-normal text-[16px] text-[#FFFFFF] leading-[23px];
+  }
+}/*# sourceMappingURL=TrendingCollections.css.map */
